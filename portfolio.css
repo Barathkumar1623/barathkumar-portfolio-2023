@@ -1,0 +1,947 @@
+* {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*updated Nav Bar */
+
+.Navbar-parent {
+    width: 84.3rem;
+    background-color: rgb(0, 0, 0);
+    height:41em;
+   
+}
+.logo {
+    transition: 0.2s;
+    width: 10em;
+    height:8em;
+    position: relative;
+    margin-right: 300px;
+}
+.logo:hover{
+    transform: scale(1.12);
+    transition: 0.5s;
+}
+
+
+.Navbar-child{
+    display: flex;
+    justify-content: space-evenly;
+   background-color: black;
+   width:84.3rem;
+    
+}
+.Hover {
+    height: 1em;
+    margin-top: 4em;
+    text-decoration: none;
+    color: rgb(248, 196, 24);
+    font-size: 1em;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 0.3s;
+}
+
+.Hover:hover {
+    transform: scale(2);
+    color: white;
+    transition: 0.3s;
+}
+
+.Intro {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.hibhh h3{
+ margin-top: 10em;
+}
+.Hello{
+    color: rgb(248, 196, 24);
+    font-size: 3em;
+    width: 4.88em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    margin-left: 12em;
+    margin-top: 2em;
+}
+
+.initial {
+    width: 9em;
+    color: rgb(223, 218, 218);
+    font-weight: 500;
+    font-size: 4em;
+    margin-left: 6.3em;
+    margin-top: 0.20em;
+}
+.About-Job {
+    color: rgb(223, 218, 218);
+    margin-left: 20em;
+    margin-top: 0.40em;
+    font-size: 1.6em;
+    color: rgb(248, 196, 24);
+}
+
+.hireme {
+    background-color: rgb(248, 196, 24);
+    width: 5em;
+    padding: 1.2em;
+    border: 1rem black solid;
+    border-radius: 50rem;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-left: 39em;
+    cursor: pointer;
+    margin-top: 2em;
+    transition: 0.1s;
+}
+
+.hireme:active {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transform: scale(1.12);
+    font-weight: bold;
+    transition: 0.1s;
+}
+.Commanhover:hover {
+    color: rgb(248, 196, 24);
+    transition: 0.6s;
+    cursor: pointer;
+}
+.Commanhover{
+    transition: 0.3s;
+}
+
+.Commanhover2:hover {
+    color: white;
+    transition: 0.6s;
+    cursor: pointer;
+}
+.Commanhover2{
+    transition: 0.3s;
+}
+
+/*Name End */
+
+.socialmedia{
+    position: absolute;
+    margin-top:5em;
+}
+.socialmedia a{
+    display: block;
+    text-decoration: none;
+    
+}
+.fa-linkedin {
+    width: 2.4rem;
+    height: 0.99em;
+    font-size: 2.35em;
+    color: white;
+    padding: 0.20em;
+    padding-right: 0.1em;
+    margin-right: 1em;
+}
+
+.fa-github {
+    width: 2.4rem;
+    height: 0.99em;
+    font-size: 2.35em;
+    color: white;
+    padding: 0.20em;
+    padding-right: 0.1em;
+    margin-right: 1em;
+}
+
+.fa-envelope {
+    width: 2.4rem;
+    height: 0.99em;
+    font-size: 2.35em;
+    color: white;
+    padding: 0.20em;
+    padding-right: 0.1em;
+    margin-right: 1em;
+
+}
+
+.fa-whatsapp {
+    width: 2.4rem;
+    height: 0.99em;
+    font-size: 2.35em;
+    color: white;
+    padding: 0.20em;
+    padding-right: 0.1em;
+    margin-right: 1em;
+
+}
+
+.fa-instagram {
+    width: 2.4rem;
+    height: 0.99em;
+    font-size: 2.35em;
+    color: white;
+    padding: 0.20em;
+    padding-right: 0.1em;
+    margin-right: 1em;
+
+}
+
+.fortransition{
+    transition:1s ;
+}
+.fortransition:hover{
+    transition: 0.1s;
+}
+.fa-instagram:hover {
+    color: white;
+    background-color: rgb(202, 0, 67);
+    border-radius: 1rem;
+    transition: 0.3s;
+}
+.fa-whatsapp:hover {
+    background-color: green;
+    border-radius: 1rem;
+    transition: 0.3s;
+}
+.fa-envelope:hover {
+    background-color: red;
+    color: rgb(240, 234, 234);
+    border-radius: 1rem;
+    transition: 0.3s;
+}
+
+.fa-github:hover {
+    color: black;
+    background-color: white;
+    border-radius: 1rem;
+    transition: 0.3s;
+}
+
+.fa-linkedin:hover {
+    background-color: blue;
+    color: white;
+    border-radius: 1rem;
+    transition: 0.3s;
+}
+
+/*Name End */
+.simplyspace {
+    width: 84.3rem;
+    height: 0.60em;
+    background-color: rgba(12, 8, 8, 0.911);
+}
+/*Start of ABout me */
+.Aboutme-parent {
+    width: 84.3rem;
+    background-color: rgb(248, 196, 24);
+    height: 20rem;
+}
+.Aboutme-head {
+    font-size: 48px;
+    font-weight:600;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 100px;
+    transition: 0.3s;  
+}
+
+.Aboutme-head:hover {
+    color: white;
+    font-size: 50px;
+    transition: 0.4s;
+    text-shadow: 1px 1px 80px;
+    cursor: pointer;
+}
+
+.Aboutme-parag {
+    position: absolute;
+    margin-top: 60px;
+    width: 930px;
+    margin-left: 400px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.cvdownload{
+    color: rgb(235, 197, 32);
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.cvdownload:Hover{
+    color: rgb(73, 73, 235);
+    font-size: 15px;
+    transition: 0.3s;
+    
+}
+
+.Aboutme-resume {
+    width: 220px;
+    height: 40px;
+    padding: 5px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 400px;
+    background-color: black;
+    transition: 0.1s;
+    border: 2px black solid;
+}
+
+.Aboutme-resume:hover {
+    transform: scale(1.05);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+/*end of ABout me */
+
+.Main-Skills {
+    width: 84.3rem;
+    background-color: black;
+    height: 28rem;
+}
+
+.Skills {
+    display: flex;
+    justify-content: space-evenly;
+    height: 180px;
+}
+.Space{
+    width: 84.3rem;
+    height: 2rem;
+    background-color: black;
+}
+
+.Head-skils {
+    color: rgb(248, 196, 24);
+    text-align: center;
+    margin-bottom: 70px;
+
+}
+
+.Head-skils:hover {
+    color: white;
+    transform: scale(1.34);
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.skil-tech {
+    width: 170px;
+    background-color: rgba(12, 11, 11, 0.781);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.fa-html5 {
+    color: rgb(231, 89, 7);
+    font-size: 50px;
+    padding: 60px;
+    padding-top: 40px;
+    padding-left: 67px;
+
+}
+
+.fa-css3-alt {
+    color: rgb(55, 55, 180);
+    font-size: 50px;
+    padding: 60px;
+    padding-top: 40px;
+    padding-left: 67px;
+}
+
+.fa-js {
+    color: rgb(243, 228, 13);
+    font-size: 50px;
+    padding: 60px;
+    padding-top: 40px;
+    padding-left: 67px;
+}
+
+.fa-java {
+    color: rgb(55, 55, 180);
+    font-size: 50px;
+    padding: 60px;
+    padding-top: 40px;
+    padding-left: 67px;
+}
+
+.fa-git-alt {
+    color: rgb(241, 135, 14);
+    font-size: 50px;
+    padding: 60px;
+    padding-top: 40px;
+    padding-left: 68px;
+}
+
+.fa-square-github {
+    color: rgb(231, 231, 233);
+    font-size: 50px;
+    padding: 60px;
+    padding-top: 40px;
+    padding-left: 67px;
+}
+
+.skil-name {
+    font-size: 15px;
+    margin-top: 30px;
+    margin-right: 19px;
+    color: rgb(248, 196, 24);
+}
+
+.skil-name2{
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 4px;
+    color: rgb(248, 196, 24);
+}
+
+.skil-name3 {
+    font-size: 15px;
+    margin-top: 30px;
+    width: 85px;
+    margin-left: 14px;
+    color: rgb(248, 196, 24);
+}
+
+.skil-name4 {
+    font-size: 14px;
+    margin-top: 30px;
+    margin-right: 19px;
+    color: rgb(248, 196, 24);
+}
+
+.skil-name5 {
+    font-size: 14px;
+    margin-top: 30px;
+ margin-left: 10px;
+    color: rgb(248, 196, 24);
+    
+}
+
+.skil-name6 {
+    font-size: 14px;
+    margin-top: 30px;
+    margin-right: 19px;
+    color: rgb(248, 196, 24);
+
+}
+
+.Head-skils {
+    font-size: 50px;
+    width: 280px;
+    transition: 0.4s;
+    margin-left: 550px;
+}
+
+.main-all {
+    background-color: black;
+}
+.hoverforskil{
+transition: 0.3s;
+}
+.hoverforskil:hover {
+    color: white;
+    font-size: 18px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+     
+            /* project */
+
+.Amzonimg {
+    width: 360px;
+    height: 200px;
+    border: 2px black solid;
+    transition: 0.3s;
+}
+.Amzonimg:hover{
+    transition: 0.3s;
+    border: 2px solid white;
+}
+
+.Portfoloioimg {
+    width: 360px;
+    height: 200px;
+    margin-top: 30px;
+    border: 2px black solid;
+    transition: 0.3s;
+}
+.Portfoloioimg:hover
+{
+    transition: 0.3s;
+    border: 2px solid white;
+}
+
+.Netfliximg {
+    width: 360px;
+    height:200px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    border: 2px black solid;
+    transition: 0.3s;
+}
+.Netfliximg:hover{
+    border: 2px white solid;
+    transition: 0.3s;
+}
+
+.Yellow-color {
+    background-color: rgb(248, 196, 24);
+    width: 84.3rem;
+    height: 3rem;
+}
+.Project {
+    font-size: 28px;
+    margin-bottom: 50PX;
+    margin-left: 110px;
+    text-shadow: 1px 1px 80px;
+    background-color: rgb(248, 196, 24);
+    font-weight: 900;
+}
+.Project-main {
+    background-color: rgb(248, 196, 24);
+    width: 84.3rem;
+    height: 58rem;
+}
+.imageofweb {
+    margin-left: 133px;
+}
+
+/* updated project title */
+
+.project-title {
+    margin-bottom: 10px;
+    font-size: 20px;
+    transition: 0.3s;
+    margin-right: 40px;
+    width: 547px;
+}
+
+.project-title2 {
+    transition: 0.3s;
+    margin-right: 40px;
+    width: 524px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.project-title3 {
+    transition: 0.3s;
+    margin-right: 40px;
+    width: 495px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.about-project {
+    font-size: 17px;
+    margin-left: 3px;
+    text-align: justify;
+    width: 600px; 
+}
+
+.about-project2 {
+    font-size: 17px;
+    margin-left: 3px;
+    text-align: justify;
+    width: 600px;       
+}
+.about-project3 {
+    font-size: 17px;
+    margin-left: 3px;
+    text-align: justify;
+    width: 600px;       
+
+}
+
+.Project-paragrap {
+    width: 800px;
+    height: 100px;
+    background-color: rgb(248, 196, 24);
+    margin-left: 400px;
+    position: absolute;
+    margin-top: 38px;
+}
+
+
+.Project-paragrap2 {
+    width: 800px;
+    height: 100px;
+    background-color: rgb(248, 196, 24);
+    margin-left: 400px;
+    margin-top: 66px;
+    position: absolute;
+
+}
+
+.Project-paragrap3 {
+    width: 800px;
+    height: 100px;
+    background-color: rgb(248, 196, 24);
+    margin-left: 400px;
+    margin-top: 68px;
+    position: absolute;
+    line-height: 25 px;
+}
+
+/* updated project title */
+
+
+.hover-forpara{
+transition: 0.3s;
+}
+.hover-forpara:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.title-forpro {
+    width: 0px;
+    margin-left: 18px;
+    transition: 0.2s;
+    text-shadow: none;
+}
+
+.title-forpro:hover {
+    color: white;
+    transform: scale(1.25);
+    transition: 0.3s;
+    text-shadow: 2px 1px 80px;
+    cursor: pointer;
+}
+.hoverwebimg:hover {
+    cursor: pointer;
+}
+
+/* form */
+
+.black-color{
+    background-color: black;
+    width: 84.3rem;
+    height: 3rem;
+}
+.main-contact {
+    background-color: black;
+    width: 84.3rem;
+    height: 20rem;
+}
+.forh1div{
+    margin-top: 0px;
+    color: rgb(248, 196, 24);
+    text-align: center;
+    margin-bottom: 27px;
+    transition: 0.2s;
+    font-size: 28px;
+    width: 225px;
+    text-shadow: none;
+    margin-left: 570px;
+}
+.forh1div:hover {
+    color: white;
+    transform: scale(1.34);
+    transition: 0.3s;
+    cursor: pointer;
+}
+.forsmalldash {
+    width: 58px;
+    height: 5px;
+    border-radius:30px;
+    background-color: rgb(248, 196, 24);
+    position: relative;
+    margin-left: 659px;
+    margin-top: 14px;
+}
+
+.alignment {
+    display: block;
+}
+
+.aboutthemessage {
+    color: rgb(248, 196, 24);
+    width: 690px;   
+    margin-left: 340px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.2s;
+}
+.aboutthemessage:hover{
+    transform: scale(1.25);
+    transition: 0.3s;
+    color: white;
+    cursor: pointer;
+}
+
+.nameclasschild {
+    width: 370px;
+    height: 40px;
+    border: 2px rgb(226, 206, 206) solid;
+    font-size: 15px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.emailclasschild {
+    width: 370px;
+    height: 40px;
+    margin-top: 30px;
+    border: 2px rgb(10, 9, 9) solid;
+    font-size: 15px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.subject {
+    width: 370px;
+    height: 40px;
+    margin-top: 30px;
+    border: 2px rgb(10, 9, 9) solid;
+    font-size: 15px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.descrtipionclasschild {
+    width: 370px;
+    height: 200px;
+    margin-top: 30px;
+    border: 2px rgb(10, 9, 9) solid;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+.sendanymassage {
+    background-color: rgb(248, 196, 24);
+    width: 180px;
+    padding: 15px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 90px;
+    text-align: center;
+    height: 20px;
+    padding-top: 20px;
+}
+
+
+.MessageBox {
+    position: relative;
+    margin-left: 440px;
+    background-color: rgba(39, 37, 37, 0.781);
+    width: 380px;
+    height: 520px;
+    border-radius: 6px;
+    margin-top: 60px;
+    padding: 60px;
+    transition: 0.3s;
+}
+.hoverMessageBox{
+    transition: 0.6s;
+}
+.MessageBox:hover{
+  border: 1px  rgb(248, 196, 24) solid ;
+  transition: 0.3s;
+
+}
+.comman-hovereffact:hover{
+border: 2px  rgb(218, 218, 44) solid ;
+  transition: 0.6s;
+cursor: pointer;
+}
+  
+
+.comman-hovereffact{
+  transition: 0.6s;}  
+
+.hoverformes{
+  transition: 0.6s;
+  font-size: 16px; 
+}
+.sendanymassage:active{
+    background-color: black;
+    color: rgb(248, 196, 24);
+    border: 2px rgb(248, 196, 24) solid ;
+    font-size: 17px;
+    transform: scale(1.05);
+    transition: 0.3s;
+    cursor: pointer;
+    padding-bottom: 20px;
+}
+.main-contact{
+    height: 1000px;
+}
+
+
+ /* footer  */
+
+
+ .simplyspace2{
+     width: 84.3rem;;
+    height: 0.1rem;
+    background-color: rgb(245, 211, 99)
+  
+}
+.lastphase-main{
+    background-color: rgb(248, 196, 24);
+    height: 13rem;
+    width: 84.3rem;
+}
+.lastphase-sub{
+    display: flex;
+}
+.lastphase-sub-name{
+    margin-top: 40px;
+    margin-left: 110px;
+}
+.lastphase-sub-name-h1{
+    font-size: 44px;
+    transition: 0.2s;
+    width: 360px;
+}
+.lastphase-sub-name-h1:hover{
+  transform: scale(1.25);
+  transition: 0.3s;
+  color: white;
+  text-shadow: 1px 1px 80px;
+  cursor: pointer;
+}
+.lastphase-sub-name-p{
+    width: 620px;
+    margin-top: 15px;
+    margin-left: 3px;
+}
+.lastphase-sub-social{
+margin-top: 41px;
+margin-left: 330px;
+}
+.lastphase-sub-social-h1{
+    font-size:50px ;
+    height: 50px; 
+    transition: 0.2s;
+}
+.lastphase-sub-social-h1:hover{
+    font-size: 52px;
+    transform: scale(1.23);
+    transition: 0.3s;
+    color: white;
+    text-shadow: 1px 1px 80px;
+    cursor: pointer;
+}
+.lastphase-sub{
+    margin-bottom: 30px;
+}
+ 
+/* footer end */
+
+.lastphase-copyright{
+    display: flex;
+}
+.lastphase-copyright-p{
+    text-align: center;
+}
+.lastphase-copyright-p-a{
+   margin-left: 5px;
+}
+.phonecall{
+    margin-top: 14px;
+     width: 0px;
+    height: 0px;
+    font-size: 25px;
+    color: black;
+    padding: 0px;
+    margin-right: 40px;
+}
+.linkedin2{
+    margin-top: 10px;
+    width: 0px;
+    height: 0px;
+    font-size: 32px;
+    color: black;
+    padding: 0px;
+    margin-right: 40px;
+}
+.githubend{
+    margin-top: 10px;
+    width: 0px;
+    height: 0px;
+    font-size: 32px;
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    margin-right: 43px;    
+}    
+.iconend{
+ 
+    width: 0px;
+    margin-top: 16px;
+    margin-left:65px ;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.instaend{
+    margin-top: 12px;
+    width: 0px;
+    height: 0px;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    margin-left: 0px;
+}
+.lastphase-sub-name-p{
+    font-size: 18px;
+}
+.lastphase-sub-name-h1{
+    font-size: 50px;
+}
+.athover{
+    transition: 0.2s;
+}
+.athover:hover{
+    color: white;
+    transform: scale(1.15);
+    transition: 0.3s;
+}
+.hovericon{
+    transition: 0.2s;
+}
+.hovericon:hover{
+    color: white;
+    transform: scale(1.15);
+    transition: 0.3s;
+}
+.symbolcopyright:hover{
+    color: white;
+    transform: scale(1.45);
+    transition: 0.3s;
+}
+.lastphase-copyright-p-a{
+    color: rgb(240, 236, 222);
+    margin-left: 10px;
+    transition: 0.2s;
+   text-decoration: none;
+}
+.lastphase-copyright-p{
+    font-size: 16px;
+}
+.symbolcopyright{
+    margin-left: 5px;
+    font-size: 17px;
+    margin-right: 3px;
+}
+.lastphase-copyright-p-a:hover{
+    color: rgb(73, 73, 235);    
+}
+.lastphase-copyright{
+    background-color: black;
+    color: #f8c418;
+    width: 84.3rem;
+    height: 3rem;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.lastphase-copyright-p{
+    margin-left: 540px;
+
+}
