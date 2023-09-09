@@ -84,6 +84,7 @@
     background-color: rgb(248, 196, 24);
     width: 5em;
     padding: 1.2em;
+    padding-left:3px;
     border: 1rem black solid;
     border-radius: 50rem;
     font-weight: bold;
